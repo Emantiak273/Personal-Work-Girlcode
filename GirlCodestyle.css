@@ -1,12 +1,13 @@
-body{
-		margin:0;
-	}
-header{
+body {
+	margin: 0;
+}
+
+header {
 	padding: 9px 76px;
 	border-bottom: 1px solid;
 }
 
-nav{
+nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -20,6 +21,7 @@ a.nav-logo {
 .nav-logo img {
 	width: 100%;
 }
+
 .nav-menu {
 	margin: 0;
 	padding: 0;
@@ -27,11 +29,41 @@ a.nav-logo {
 	display: flex;
 	gap: 18px
 }
-.menu-item a{
+
+.menu-item a {
 	text-decoration: none;
 	color: black;
 }
 
-.menu-item a:hover{
+.menu-item a:hover {
 	color: red;
+}
+
+.songs-section {
+	padding: 72px 76px;
+}
+
+.songs-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 20px;
+	justify-items: center;
+}
+
+.song-item img {
+	width: 180px
+}
+
+.song-item a {
+	color: black;
+	text-decoration: none;
+}
+
+.song-info h3,
+.song-info h4 {
+	margin: 0;
+}
+
+.song-wrapper {
+	text-align: center;
 }
