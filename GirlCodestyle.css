@@ -46,7 +46,7 @@ a.nav-logo {
 .songs-list {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	gap: 20px;
+	gap: 15px;
 	justify-items: center;
 }
 
@@ -54,12 +54,13 @@ a.nav-logo {
 	width: 180px
 }
 
+  
 .song-item a {
 	color: black;
 	text-decoration: none;
 }
 
-.song-info h3,
+.song-info h3, 
 .song-info h4 {
 	margin: 0;
 }
@@ -67,3 +68,4 @@ a.nav-logo {
 .song-wrapper {
 	text-align: center;
 }
+ 
